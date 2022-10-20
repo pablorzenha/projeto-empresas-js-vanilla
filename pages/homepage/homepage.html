@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css">
+    <link rel="stylesheet" href="../../styles/sidebar.css">
+    <link rel="stylesheet" href="../../styles/homepage.css">
+    <link rel="stylesheet" href="../../styles/button.css">
+    <link rel="stylesheet" href="../../styles/input.css">
+    <script defer src="../../script/sidebar.js"></script>
+    <script type="module" defer src="./homepage.js"></script>
+    <script defer src="../../script/darkmode.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logoContent">
+            <div class="logo">
+                <h2>RzenhaHelp!</h2>
+               
+            </div>
+            <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li class="iconDarkMode hidden">
+                <input type="checkbox" class="checkbox" id="chk">
+                <label class="label" for="chk">
+                    <i class='bx bxs-moon'></i>
+                    <i class='bx bxs-sun'></i>
+                    <div class="ball"></div>
+                </label>
+            </li>
+            <li>
+                <i class="bx bx-search"></i>
+                <input type="text" placeholder="Procurar por">
+                <span class="toolipe">Procurar</span>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bx bx-grid-alt"></i>
+                    <span class="links_name bx-grid-altLabel">Dashboard</span>
+                    <span class="toolipe">Dashboard</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="">
+                    <i class="bx bx-user"></i>
+                    <span class="links_name bx-userlabel">Usuário</span>
+                    <span class="toolipe">Usuário</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="">
+                    <i class="bx bx-folder-open"></i>
+                    <span class="links_name bx-folder-open-label">Setores</span>
+                    <span class="toolipe">Setores</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="">
+                    <i class="bx bxs-buildings"></i>
+                    <span class="links_name bxs-buildingslabel">Empresas</span>
+                    <span class="toolipe">Empresas</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="">
+                    <i class="bx bx-chart"></i>
+                    <span class="links_name bx bx-chart-label">Departamentos</span>
+                    <span class="toolipe">Departamentos</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="">
+                    <i class="bx bxs-id-card"></i>
+                    <span class="links_name bxs-id-card-label">Funcionários</span>
+                    <span class="toolipe">Funcionários</span>
+                </a>
+            </li>
+        </ul>
+        <div class="profileContent">
+            <div class="profile">
+                <div class="profileDetail">
+                    <div class="name__job">
+                        <div class="name">Pablo</div>
+                        <div class="userLevel">Admin</div>
+                        <div class="job">Web Developer</div>
+                    </div>
+                </div>
+                <i class="bx bx-log-out" id="logout"></i>
+            </div>
+        </div>
+    </div>
+    <main class="homeContent">
+        <div class="main__header">
+            <h1 class ="main__title">Rzenha Help!</h1>
+        </div>
+        <div class="main__body">
+
+        </div>
+    </main>
+</body>
+
+</body>
+
+</html>

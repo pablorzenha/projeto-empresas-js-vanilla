@@ -1,0 +1,131 @@
+:root{
+    
+        --color-background: rgba(0,0,0,0.89);
+        --color-white: white;
+        --color-gray: #ccc;
+        --color-white-off: #efefef
+    
+}
+.form__button{
+    width: 50%;
+    align-self: center;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    background-color: rgb(73, 40, 0);
+    color: var(--color-gray);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn__back{
+    background:none;
+    cursor: pointer;
+    width: max-content;
+    border: none;
+    color: var(--color-white);
+}
+.mainContent__containerButtons button{
+    width: max-content;
+    align-self: center;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    background-color: var(--color-background);
+    color: var(--color-white-off);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btnregister{
+    width: 121px;
+    align-self: center;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    background-color: var(--color-background);
+    color: var(--color-white-off);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.containerSerch button{
+    width: 121px;
+    align-self: center;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    background-color:var(--color-background);
+    color: var(--color-white-off);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.maincontent__departamentInfo button{
+    width: 121px;
+    align-self: center;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    background-color: var(--color-background);
+    color: var(--color-white-off);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.createDepartament , .deleteDepartament, .listDepartament{
+    width: max-content;
+    align-self: center;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    background-color: var(--color-background);
+    color: var(--color-white-off);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button__listAllEmploy, .button__contract , .button__dismiss, .button__modifier , .button__userNot{
+    width: max-content;
+    align-self: center;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    background-color: var(--color-background);
+    color: var(--color-white-off);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.mainContent__actButtonsEmployeers button{
+    background-color: var(--color-background);
+    border: none;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    color: var(--color-white);
+}
+.mainContent__btnEdit{
+    background-color: var(--color-background);
+    border: none;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    color: var(--color-white);
+    width: fit-content;
+}
+.mainContent__btnName,  .mainContent__btnEmail, .mainContent__buttonChange{
+    background-color: var(--color-background);
+    border: none;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    color: var(--color-white);
+    width: fit-content;
+}

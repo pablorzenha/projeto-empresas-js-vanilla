@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+:root{
+    --color-background: rgba(0,0,0,0.89);
+    --color-white: white;
+    --color-gray: #ccc;
+}
+
+
+.container__login{
+    background-image: url("../img/pexels-photo-1509428.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.companies__container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    background-color: rgba(0,0,0,.75);
+    height: 10vh;
+    bottom: 0;
+    width: 100%;
+    color: var(--color-gray);
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+}
+.listCompanies{
+    color: var(--color-white);
+    gap: 40px;
+    overflow-x: auto;
+    display: flex;
+    
+}
+
+
+.container__login h1{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: var(--color-gray);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 8px;
+}
+.container__form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 320px;
+    height: max-content;
+    border-radius: 8px;
+    background-color: var(--color-background);
+    padding: 50px 20px;
+    animation: aparecer;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.container__form h2{
+    color: var(--color-gray);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container__form__login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container__login__register{
+    display: flex;
+    gap:5px
+}
+
+.container__login__register h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: var(--color-gray);
+}
+.mainContent__register{
+    display: flex;
+}

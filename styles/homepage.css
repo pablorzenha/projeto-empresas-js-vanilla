@@ -1,0 +1,334 @@
+:root{
+    --color-background: rgba(0,0,0,0.89);
+    --color-white: white;
+    --color-gray: #ccc;
+}
+
+.main__title{
+    margin: 40px 0;  
+}
+.main__subtitle{
+    position: absolute;
+    top: 98px;
+    left: 6px;
+    font-family: 'roboto';
+}
+.main__header{
+    box-shadow: 2px 2px 5px var(--color-gray);
+    width: 100%;
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-gray);
+}
+.main__body__infoHeadline{
+    width: 100%;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 40px;
+}
+.main__body__infoHeadline h2{
+    font-size: 26px;
+}
+
+.main__body__dashboard{
+    width: 45%;
+    background-color: var(--color-background);
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    gap: 32px;
+    justify-content: space-between;
+}
+.main__dashboardContainer{
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.main__body__infoSectors{
+    width: 100%;
+    padding: 5px    ;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 7px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.main__body__info{
+    text-align: center;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 20%;
+    border-radius: 7px;
+}
+.main__body__info h3{
+    text-align: center;
+    font-size: 40px;
+}
+.homeContent{
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 55px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+    gap: 15px;
+    background-color: #f3f2f2;
+    z-index:0;
+    align-items: center;
+}
+.main__body{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+    gap: 20px;
+}
+.mainContent__containerSectors {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    
+}
+.mainContent__btnEdit{
+    
+}
+.homeContent h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.mainContent__ulCarrossel li{
+    background-color: var(--color-white);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.mainContent__ulCarrossel{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    background-color: var(--color-background);
+    padding: 7px;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'roboto';
+    box-shadow: 0px 5px 10px;
+    color: black;
+    gap: 10px;
+    width: fit-content;
+    overflow-y: scroll;
+}
+.mainContent__ulCarrossel img{
+    width: 180px;
+    height: 120px;
+}
+.mainContent__ul{
+    background-color: var(--color-background);
+    width: fit-content;
+    border-radius: 4px;
+    padding: 7px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    box-shadow: 0px 5px 10px;
+    overflow-y: scroll;
+    height: 50vh;
+}
+
+.ul__cardCompanie{
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+    gap: 20px;
+    padding: 7px;
+    color: black;
+    background-color: var(--color-white);
+    height: 134px;
+    box-shadow: 0px 3px 6px;
+    box-shadow: 1px 2px 3px var(--color-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ul__cardCompanie p{
+   font-size: 17px;
+    width: 150px;
+}
+.ul__cardCompanie h3{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.mainContent__containerButtons{
+    width: 90%;
+
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mainContent__register{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 90%;
+
+}
+.mainContent__pesquisaContainer{
+    width: 90%;
+    padding: 0 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.containerSerch{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 320px;
+    gap: 20px;
+}
+.containerSerch select{
+    width: 170px;
+    color: black;
+}
+.maincontent__departamentInfo {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.mainContent__ulDepartament{
+
+    align-items: center;
+    list-style: none;
+    margin-top: 10px;
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.column{
+    flex-direction: column;
+}
+.maincontent__departamentInfo select{
+    width: 200px;
+}
+.mainContent__departamentForCompanie {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    border-radius: 4px;
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    height: 45vh;
+    overflow-y: auto;
+}
+.mainContent__containerBtns__departament{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+.mainContent__containerButtonsEmployeers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+main h2{
+    
+}
+.maincontent__departamentInfo ul li{
+    width: 120px;
+}
+.mainContent__actButtonsEmployeers{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.mainContent__employeerContent{
+    width: 88%;
+}
+.hidden{
+    display: none;
+}
+.main__header.darkMode{
+    background-color: rgb(19, 18, 18);
+    color: var(--color-white);
+}
+.homeContent.darkMode{
+    background-color: rgb(27,27,27);
+    color: var(--color-white);
+}
+h1.darkMode , h4.darkMode , h3.darkMode, p.darkMode{
+    color: black;
+}
+.UserNotEmployer{
+    background-color: var(--color-background);
+    width: fit-content;
+    border-radius: 4px;
+    padding: 7px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    box-shadow: 0px 5px 10px;
+    overflow-y: scroll;
+    height: max-content;
+}
+.UserNotEmployer li{
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+    gap: 20px;
+    padding: 7px;
+    color: black;
+    background-color: var(--color-white);
+    height: max-content;
+    box-shadow: 0px 3px 6px;
+    box-shadow: 1px 2px 3px var(--color-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+@media screen and (max-width:495px) {
+    .mainContent__ulCarrossel{
+        height: 70vh;
+    }
+    .mainContent__ul{
+        height: 50vh;
+        overflow-y: scroll;
+    }
+}

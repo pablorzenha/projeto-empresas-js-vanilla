@@ -1,1 +1,1 @@
-# projeto-empresas-js-vanilla
+# m2-entrega-projeto-individual-template
